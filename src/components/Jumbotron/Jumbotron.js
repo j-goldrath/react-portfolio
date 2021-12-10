@@ -60,7 +60,7 @@ export default function Jumbotron() {
                 className='btn btn-outline-light btn-lg m-2'
                 href='https://www.youtube.com/watch?v=c9B4TPnak1A'
                 role='button'
-                rel='nofollow'
+                rel='nofollow noreferrer'
                 target='_blank'
               >
                 Start tutorial
@@ -70,6 +70,7 @@ export default function Jumbotron() {
                 href='https://mdbootstrap.com/docs/standard/'
                 target='_blank'
                 role='button'
+                rel='nofollow noreferrer'
               >
                 Download MDB UI KIT
               </a>

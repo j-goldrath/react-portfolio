@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  body {
+    background-color: #eee;
+  }
+  
+  .wrapper {
+    background-color: #fff;
+    margin: auto;
+    max-width: 100vw;
+    overflow: hidden;
+    display: flex;
+  }
+  
+  .images-line {
+    width: fit-content;
+    display: flex;
+    padding: 24px 0;
+  }
+  
+  .rolling {
+    backface-visibility: hidden;
+    transform: translateX(0);
+  }
+  
+  .images-line .rolling-image {
+    display: block;
+    filter: grayscale(1);
+    width: 120px;
+    margin: 0 24px;
+  }
+  
