@@ -1,83 +1,31 @@
+// import React
 import React from 'react';
-// importing bootstrap specific components from react-bootstrap
-import {
-MDBNavbar,
-MDBNavbarNav,
-MDBNavbarItem,
-MDBNavbarToggler,
-MDBNavbarLink,
-MDBContainer,
-MDBIcon } from 'mdb-react-ui-kit';
 
 // imported css file
 import './Jumbotron.css';
 
-// react component function for jumbotron
-export default function Jumbotron() {
-  return (
-    <header>
-      <MDBNavbar expand='lg' light bgColor='white'>
-        <MDBContainer fluid>
-          <MDBNavbarToggler
-            aria-controls='navbarExample01'
-            aria-expanded='false'
-            aria-label='Toggle navigation'
-          >
-            <MDBIcon fas icon='bars' />
-          </MDBNavbarToggler>
-          <div className='collapse navbar-collapse' id='navbarExample01'>
-            <MDBNavbarNav right className='mb-2 mb-lg-0'>
-              <MDBNavbarItem active>
-                <MDBNavbarLink aria-current='page' href='#'>
-                  Home
-                </MDBNavbarLink>
-              </MDBNavbarItem>
-              <MDBNavbarItem>
-                <MDBNavbarLink href='#'>Features</MDBNavbarLink>
-              </MDBNavbarItem>
-              <MDBNavbarItem>
-                <MDBNavbarLink href='#'>Pricing</MDBNavbarLink>
-              </MDBNavbarItem>
-              <MDBNavbarItem>
-                <MDBNavbarLink href='#'>About</MDBNavbarLink>
-              </MDBNavbarItem>
-            </MDBNavbarNav>
-          </div>
-        </MDBContainer>
-      </MDBNavbar>
 
-      <div
-        id='intro-example'
-        className='p-5 text-center bg-image'
-        style={{ backgroundImage: "url('https://mdbcdn.b-cdn.net/img/new/slides/041.jpg')" }}
-      >
-        <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.7)' }}>
-          <div className='d-flex justify-content-center align-items-center h-100'>
-            <div className='text-white'>
-              <h1 className='mb-3'>Learn Bootstrap 5 with MDB</h1>
-              <h5 className='mb-4'>Best &amp; free guide of responsive web design</h5>
-              <a
-                className='btn btn-outline-light btn-lg m-2'
-                href='https://www.youtube.com/watch?v=c9B4TPnak1A'
-                role='button'
-                rel='nofollow noreferrer'
-                target='_blank'
-              >
-                Start tutorial
-              </a>
-              <a
-                className='btn btn-outline-light btn-lg m-2'
-                href='https://mdbootstrap.com/docs/standard/'
-                target='_blank'
-                role='button'
-                rel='nofollow noreferrer'
-              >
-                Download MDB UI KIT
-              </a>
+function Jumbotron() {
+  return (
+    <div>
+        <a id="home" />
+        <div className="galaxy-bg">
+          <div className="px-4 py-5 my-5 text-center text-white">
+            <h1 className="mt-5 display-5 fw-bold landing-hero">Hi, my name is <span className="text-info">Jonathan Goldrath</span>
+            </h1>
+            <div className="col-lg-6 mx-auto">
+              <hr className="border-2" />
+              <p className="lead mb-4">Full-Stack Developer | Engineer | Creative Problem Solver</p>
+              <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                {/* <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button> */}
+                <button onclick="location.href='#contact'" type="button" className="btn btn-outline-secondary btn-lg px-4">Get
+                  In Touch</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </header>
   );
 }
+
+export default Jumbotron;

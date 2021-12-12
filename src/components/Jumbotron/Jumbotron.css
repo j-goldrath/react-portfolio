@@ -1,0 +1,11 @@
+.landing-hero{
+    padding-top: 150px;
+}
+.galaxy-bg{
+    background-image: url("./super-stary-night.jpg");
+    min-height: 96vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

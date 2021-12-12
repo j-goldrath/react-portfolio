@@ -1,0 +1,83 @@
+.img-card{
+    height: 380px;
+    border-radius: 20px;
+    position: relative;
+    border: 1px solid grey;
+}
+
+.img-card-bg-1{
+  background-image: url("https://github.com/j-goldrath/note-taker/blob/main/public/assets/images/note-taker-app-homepage.png?raw=true");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img-card-bg-2{
+  background-image: url("https://raw.githubusercontent.com/j-goldrath/quiz-game/main/assets/images/quiz-start-desktop.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img-card-bg-3{
+  background-image: url("https://github.com/j-goldrath/workout-tracker/raw/main/assets/images/workout-dashboard.png?raw=true");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img-card-bg-4{
+  background-image: url("https://github.com/j-goldrath/budget-tracker/raw/main/assets/images/progressive-budget-pwa.png?raw=true");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img-card-bg-5{
+  background-image: url("https://github.com/j-goldrath/tech-blog/blob/main/assets/images/tech-blog-demo.gif?raw=true");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img-card-bg-6{
+  background-image: url("https://github.com/j-goldrath/team-profile-generator/raw/main/assets/images/team-profile-generator-demo-output.png?raw=true");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+  
+.project-info-card{
+  background-color: #fff;
+  color: #000;
+  opacity: .8;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 0px 0px 20px 20px;
+}
+.grow { 
+  transition: all .2s ease-in-out; 
+}
+.grow:hover { 
+  transform: scale(1.05); 
+}
+.icon-grow { 
+  transition: all .1s ease-in-out; 
+}
+.icon-grow:hover { 
+  transform: scale(1.25);
+}
+.project-title{
+  padding-top: 7px;
+  font-weight: bolder;
+}
+.project-description{
+  margin-top: -3px;
+}
+.project-github-icon{
+  margin-top: -23px;
+  text-decoration: none;
+  color: black;
+}
