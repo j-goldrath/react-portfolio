@@ -1,12 +1,16 @@
+// import React
 import React from 'react';
 
-// import logo from './logo.svg';
+// import App.css
 import './App.css';
+
+// import react components we created
 import Navbar from './components/Navbar/Navbar';
 import Jumbotron from './components/Jumbotron/Jumbotron';
 import AboutMe from './components/AboutMe/AboutMe';
 import Portfolio from './components/Portfolio/Portfolio';
-// import FullWidthLogoImageSlider from './components/FullwidthLogoImageSlider/FullWidthLogoImageSlider';
+import Footer from './components/Footer/Footer';
+
 
 function App() {
   // any functions that need to be called in the render function
@@ -16,6 +20,7 @@ function App() {
       <Jumbotron />
       <AboutMe />
       <Portfolio />
+      <Footer />
     </div>
   );
 }

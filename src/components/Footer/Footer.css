@@ -1,0 +1,17 @@
+.contact-icon-grow{
+  transition: all .1s ease-in-out; 
+}
+.contact-icon-grow:hover{
+  transform: scale(1.25);
+  transform-origin: left;
+}
+.footer-contact-icon{
+  text-decoration: none;
+}
+.contact-icon-col{
+  position: absolute;
+} 
+.contact-icon-wrapper{
+  position: relative;
+  left: 0;
+}
