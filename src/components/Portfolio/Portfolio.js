@@ -6,7 +6,7 @@ import './Portfolio.css';
 
 function Portfolio() {
     return (
-        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 py-5 px-3 g-3">
+        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 py-5 px-3 g-3 justify-content-center">
             <div className="col s12 m4">
                 <div className="card img-card img-card-bg-1 shadow grow">
                     <div className="col s12">
@@ -81,6 +81,32 @@ function Portfolio() {
                             </a>
                             <p className="project-description">Node.js</p>
                             <a target="_blank" rel="noopener noreferrer" className="project-github-icon" href="https://github.com/j-goldrath/team-profile-generator"><i style={{ fontSize: '2rem' }} className="bi bi-github" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="col s12 m4">
+                <div className="card img-card img-card-bg-7 shadow grow">
+                    <div className="col s12">
+                        <div className="card project-info-card align-items-center shadow">
+                            <a target="_blank" href="https://j-goldrath.github.io/weather-dashboard/">
+                                <h5 className="text-primary project-title text-center">Weather Dashboard</h5>
+                            </a>
+                            <p className="project-description">Javascript | HTML | CSS</p>
+                            <a target="_blank" className="project-github-icon" href="https://github.com/j-goldrath/weather-dashboard"><i style={{ fontSize: '2rem' }} className="bi bi-github" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="col s12 m4">
+                <div className="card img-card img-card-bg-8 shadow grow">
+                    <div className="col s12">
+                        <div className="card project-info-card align-items-center shadow">
+                            <a target="_blank" href="https://github.com/j-goldrath/work-day-scheduler/blob/main/assets/images/work-day-scheduler-screenshot.png?raw=true">
+                                <h5 className="text-primary project-title text-center">Work Day Scheduler</h5>
+                            </a>
+                            <p className="project-description">Javascript | HTML | CSS</p>
+                            <a target="_blank" className="project-github-icon" href="https://j-goldrath.github.io/work-day-scheduler/"><i style={{ fontSize: '2rem' }} className="bi bi-github" /></a>
                         </div>
                     </div>
                 </div>

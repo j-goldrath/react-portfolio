@@ -46,6 +46,20 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.img-card-bg-7{
+    background-image: url("https://github.com/j-goldrath/weather-dashboard/blob/main/assets/images/weather-dashboard-screenshot.png?raw=true");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .img-card-bg-8{
+    background-image: url("https://github.com/j-goldrath/work-day-scheduler/raw/main/assets/images/work-day-scheduler-screenshot.png?raw=true");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
   
 .project-info-card{
   background-color: #fff;
